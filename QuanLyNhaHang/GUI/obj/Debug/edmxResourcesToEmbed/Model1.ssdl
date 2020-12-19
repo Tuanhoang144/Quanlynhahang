@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QuanLyCafeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Ban">
+    <Key>
+      <PropertyRef Name="MaBan" />
+    </Key>
+    <Property Name="MaBan" Type="int" Nullable="false" />
+    <Property Name="TenBan" Type="nvarchar" MaxLength="50" />
+    <Property Name="TrangThai" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ChiTietHD">
+    <Key>
+      <PropertyRef Name="MaChiTietHD" />
+    </Key>
+    <Property Name="MaChiTietHD" Type="int" Nullable="false" />
+    <Property Name="MaHD" Type="int" />
+    <Property Name="MaMon" Type="int" />
+    <Property Name="SoLuong" Type="int" />
+    <Property Name="Gia" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'QuanLyCafe.dbo.GiaoDien' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="GiaoDien">
+          <Property Name="FontFamily" Type="varchar(max)" />
+          <Property Name="Stye" Type="int" />
+          <Property Name="Size" Type="int" />
+          <Property Name="BackGroud" Type="varchar" MaxLength="50" />
+          <Property Name="Color" Type="nvarchar" MaxLength="50" />
+        </EntityType>-->
+  <EntityType Name="HoaDon">
+    <Key>
+      <PropertyRef Name="MaHD" />
+    </Key>
+    <Property Name="MaHD" Type="int" Nullable="false" />
+    <Property Name="GiamGia" Type="int" />
+    <Property Name="MaBan" Type="int" />
+    <Property Name="GioDen" Type="datetime" />
+    <Property Name="TongTien" Type="int" />
+    <Property Name="TrangThai" Type="int" />
+  </EntityType>
+  <EntityType Name="NHANVIEN">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="MaNV" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="TEN" Type="nvarchar" MaxLength="50" />
+    <Property Name="GIOITINH" Type="nvarchar" MaxLength="50" />
+    <Property Name="SDT" Type="char" MaxLength="10" />
+    <Property Name="CHUCVU" Type="nvarchar" MaxLength="50" />
+    <Property Name="MATKHAU" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="NhomMon">
+    <Key>
+      <PropertyRef Name="MaLoai" />
+    </Key>
+    <Property Name="MaLoai" Type="int" Nullable="false" />
+    <Property Name="TenLoai" Type="nvarchar" MaxLength="50" />
+    <Property Name="MauSac" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ThucDon">
+    <Key>
+      <PropertyRef Name="MaMon" />
+    </Key>
+    <Property Name="MaMon" Type="int" Nullable="false" />
+    <Property Name="TenMon" Type="nvarchar" MaxLength="50" />
+    <Property Name="MaLoai" Type="int" />
+    <Property Name="DonGia" Type="int" />
+    <Property Name="DVT" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'QuanLyCafe.dbo.thưcDơnPhaChe' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="thưcDơnPhaChe">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MAMON" Type="int" />
+    <Property Name="MANV" Type="char" MaxLength="10" />
+    <Property Name="MABAN" Type="int" />
+    <Property Name="SL" Type="int" />
+    <Property Name="TrangThai" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_ChiTietHD_HoaDon">
+    <End Role="HoaDon" Type="Self.HoaDon" Multiplicity="0..1" />
+    <End Role="ChiTietHD" Type="Self.ChiTietHD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HoaDon">
+        <PropertyRef Name="MaHD" />
+      </Principal>
+      <Dependent Role="ChiTietHD">
+        <PropertyRef Name="MaHD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HoaDon_Ban">
+    <End Role="Ban" Type="Self.Ban" Multiplicity="0..1" />
+    <End Role="HoaDon" Type="Self.HoaDon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ban">
+        <PropertyRef Name="MaBan" />
+      </Principal>
+      <Dependent Role="HoaDon">
+        <PropertyRef Name="MaBan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ThucDon_NhomMon">
+    <End Role="NhomMon" Type="Self.NhomMon" Multiplicity="0..1" />
+    <End Role="ThucDon" Type="Self.ThucDon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhomMon">
+        <PropertyRef Name="MaLoai" />
+      </Principal>
+      <Dependent Role="ThucDon">
+        <PropertyRef Name="MaLoai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_thưcDơnPhaChe_Ban">
+    <End Role="Ban" Type="Self.Ban" Multiplicity="0..1" />
+    <End Role="thưcDơnPhaChe" Type="Self.thưcDơnPhaChe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ban">
+        <PropertyRef Name="MaBan" />
+      </Principal>
+      <Dependent Role="thưcDơnPhaChe">
+        <PropertyRef Name="MABAN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_thưcDơnPhaChe_NHANVIEN">
+    <End Role="NHANVIEN" Type="Self.NHANVIEN" Multiplicity="0..1" />
+    <End Role="thưcDơnPhaChe" Type="Self.thưcDơnPhaChe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHANVIEN">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="thưcDơnPhaChe">
+        <PropertyRef Name="MANV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_thưcDơnPhaChe_ThucDon">
+    <End Role="ThucDon" Type="Self.ThucDon" Multiplicity="0..1" />
+    <End Role="thưcDơnPhaChe" Type="Self.thưcDơnPhaChe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ThucDon">
+        <PropertyRef Name="MaMon" />
+      </Principal>
+      <Dependent Role="thưcDơnPhaChe">
+        <PropertyRef Name="MAMON" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QuanLyCafeModelStoreContainer">
+    <EntitySet Name="Ban" EntityType="Self.Ban" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ChiTietHD" EntityType="Self.ChiTietHD" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HoaDon" EntityType="Self.HoaDon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NHANVIEN" EntityType="Self.NHANVIEN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NhomMon" EntityType="Self.NhomMon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ThucDon" EntityType="Self.ThucDon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="thưcDơnPhaChe" EntityType="Self.thưcDơnPhaChe" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [thưcDơnPhaChe].[ID] AS [ID], 
+    [thưcDơnPhaChe].[MAMON] AS [MAMON], 
+    [thưcDơnPhaChe].[MANV] AS [MANV], 
+    [thưcDơnPhaChe].[MABAN] AS [MABAN], 
+    [thưcDơnPhaChe].[SL] AS [SL], 
+    [thưcDơnPhaChe].[TrangThai] AS [TrangThai]
+    FROM [dbo].[thưcDơnPhaChe] AS [thưcDơnPhaChe]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_ChiTietHD_HoaDon" Association="Self.FK_ChiTietHD_HoaDon">
+      <End Role="HoaDon" EntitySet="HoaDon" />
+      <End Role="ChiTietHD" EntitySet="ChiTietHD" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HoaDon_Ban" Association="Self.FK_HoaDon_Ban">
+      <End Role="Ban" EntitySet="Ban" />
+      <End Role="HoaDon" EntitySet="HoaDon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ThucDon_NhomMon" Association="Self.FK_ThucDon_NhomMon">
+      <End Role="NhomMon" EntitySet="NhomMon" />
+      <End Role="ThucDon" EntitySet="ThucDon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_thưcDơnPhaChe_Ban" Association="Self.FK_thưcDơnPhaChe_Ban">
+      <End Role="Ban" EntitySet="Ban" />
+      <End Role="thưcDơnPhaChe" EntitySet="thưcDơnPhaChe" />
+    </AssociationSet>
+    <AssociationSet Name="FK_thưcDơnPhaChe_NHANVIEN" Association="Self.FK_thưcDơnPhaChe_NHANVIEN">
+      <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+      <End Role="thưcDơnPhaChe" EntitySet="thưcDơnPhaChe" />
+    </AssociationSet>
+    <AssociationSet Name="FK_thưcDơnPhaChe_ThucDon" Association="Self.FK_thưcDơnPhaChe_ThucDon">
+      <End Role="ThucDon" EntitySet="ThucDon" />
+      <End Role="thưcDơnPhaChe" EntitySet="thưcDơnPhaChe" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

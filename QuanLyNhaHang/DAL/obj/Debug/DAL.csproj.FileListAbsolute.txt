@@ -1,0 +1,35 @@
+E:\HocC#\QuanLyCafe\DAL\bin\Debug\DAL.dll
+E:\HocC#\QuanLyCafe\DAL\bin\Debug\DAL.pdb
+E:\HocC#\QuanLyCafe\DAL\bin\Debug\DTO.dll
+E:\HocC#\QuanLyCafe\DAL\bin\Debug\DTO.pdb
+E:\HocC#\QuanLyCafe\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+E:\HocC#\QuanLyCafe\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\HocC#\QuanLyCafe\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\HocC#\QuanLyCafe\DAL\obj\Debug\DAL.dll
+E:\HocC#\QuanLyCafe\DAL\obj\Debug\DAL.pdb
+G:\QuanLyCafe\DAL\bin\Debug\DAL.dll
+G:\QuanLyCafe\DAL\bin\Debug\DAL.pdb
+G:\QuanLyCafe\DAL\bin\Debug\DTO.dll
+G:\QuanLyCafe\DAL\bin\Debug\DTO.pdb
+G:\QuanLyCafe\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+G:\QuanLyCafe\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\QuanLyCafe\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\QuanLyCafe\DAL\obj\Debug\DAL.dll
+G:\QuanLyCafe\DAL\obj\Debug\DAL.pdb
+G:\QuanLyNhaHang\DAL\bin\Debug\DAL.dll
+G:\QuanLyNhaHang\DAL\bin\Debug\DAL.pdb
+G:\QuanLyNhaHang\DAL\bin\Debug\DTO.dll
+G:\QuanLyNhaHang\DAL\bin\Debug\DTO.pdb
+G:\QuanLyNhaHang\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\QuanLyNhaHang\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\QuanLyNhaHang\DAL\obj\Debug\DAL.dll
+G:\QuanLyNhaHang\DAL\obj\Debug\DAL.pdb
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DAL\bin\Debug\DAL.dll
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DAL\bin\Debug\DAL.pdb
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DAL\bin\Debug\DTO.dll
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DAL\bin\Debug\DTO.pdb
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DAL\obj\Debug\DAL.dll
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DAL\obj\Debug\DAL.pdb

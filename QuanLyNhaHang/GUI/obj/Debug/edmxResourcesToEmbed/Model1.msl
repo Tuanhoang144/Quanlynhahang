@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QuanLyCafeModelStoreContainer" CdmEntityContainer="QuanLyCafeEntities">
+    <EntitySetMapping Name="Bans">
+      <EntityTypeMapping TypeName="QuanLyCafeModel.Ban">
+        <MappingFragment StoreEntitySet="Ban">
+          <ScalarProperty Name="MaBan" ColumnName="MaBan" />
+          <ScalarProperty Name="TenBan" ColumnName="TenBan" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChiTietHDs">
+      <EntityTypeMapping TypeName="QuanLyCafeModel.ChiTietHD">
+        <MappingFragment StoreEntitySet="ChiTietHD">
+          <ScalarProperty Name="MaChiTietHD" ColumnName="MaChiTietHD" />
+          <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+          <ScalarProperty Name="MaMon" ColumnName="MaMon" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HoaDons">
+      <EntityTypeMapping TypeName="QuanLyCafeModel.HoaDon">
+        <MappingFragment StoreEntitySet="HoaDon">
+          <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+          <ScalarProperty Name="GiamGia" ColumnName="GiamGia" />
+          <ScalarProperty Name="MaBan" ColumnName="MaBan" />
+          <ScalarProperty Name="GioDen" ColumnName="GioDen" />
+          <ScalarProperty Name="TongTien" ColumnName="TongTien" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHANVIENs">
+      <EntityTypeMapping TypeName="QuanLyCafeModel.NHANVIEN">
+        <MappingFragment StoreEntitySet="NHANVIEN">
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="TEN" ColumnName="TEN" />
+          <ScalarProperty Name="GIOITINH" ColumnName="GIOITINH" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="CHUCVU" ColumnName="CHUCVU" />
+          <ScalarProperty Name="MATKHAU" ColumnName="MATKHAU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NhomMons">
+      <EntityTypeMapping TypeName="QuanLyCafeModel.NhomMon">
+        <MappingFragment StoreEntitySet="NhomMon">
+          <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+          <ScalarProperty Name="TenLoai" ColumnName="TenLoai" />
+          <ScalarProperty Name="MauSac" ColumnName="MauSac" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ThucDons">
+      <EntityTypeMapping TypeName="QuanLyCafeModel.ThucDon">
+        <MappingFragment StoreEntitySet="ThucDon">
+          <ScalarProperty Name="MaMon" ColumnName="MaMon" />
+          <ScalarProperty Name="TenMon" ColumnName="TenMon" />
+          <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="thưcDơnPhaChe">
+      <EntityTypeMapping TypeName="QuanLyCafeModel.thưcDơnPhaChe">
+        <MappingFragment StoreEntitySet="thưcDơnPhaChe">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MAMON" ColumnName="MAMON" />
+          <ScalarProperty Name="MANV" ColumnName="MANV" />
+          <ScalarProperty Name="MABAN" ColumnName="MABAN" />
+          <ScalarProperty Name="SL" ColumnName="SL" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

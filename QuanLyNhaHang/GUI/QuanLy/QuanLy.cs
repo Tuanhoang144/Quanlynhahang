@@ -30,8 +30,8 @@ namespace QuanLyCafe.Gul
             LoadDatabase();
             groupBox1.ForeColor = trangChu.ForeColor;
             groupBox2.ForeColor = trangChu.ForeColor;
-            groupBox3.ForeColor = trangChu.ForeColor;
-            groupBox4.ForeColor = trangChu.ForeColor;
+            //groupBox3.ForeColor = trangChu.ForeColor;
+            //groupBox4.ForeColor = trangChu.ForeColor;
             groupBox5.ForeColor = trangChu.ForeColor;
             groupBox6.ForeColor = trangChu.ForeColor;
             groupBox7.ForeColor = trangChu.ForeColor;
@@ -308,7 +308,7 @@ namespace QuanLyCafe.Gul
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
         {
-            string TimKiem = textBox1.Text;
+            string TimKiem = textbox1.Text;
             if (TimKiem.Length > 0)
             {
                 ThucDon = new DALThucDon();
@@ -623,6 +623,109 @@ namespace QuanLyCafe.Gul
         private void button19_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btntaikhoan_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(3);
+        }
+
+        private void guna2GradientButton2_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(2);
+            LoadDatabase();
+        }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(1);
+            LoadDatabase();
+        }
+
+        private void guna2GradientButton2_Click_1(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(2);
+            LoadDatabase();
+        }
+
+        private void guna2GradientButton3_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(0);
+            LoadDatabase();
+        }
+
+        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
+        {
+            string TimKiem = textbox1.Text;
+            if (TimKiem.Length > 0)
+            {
+                ThucDon = new DALThucDon();
+                DataTable dataTable = ThucDon.TimKiemThucDon1(TimKiem);
+                dataGridView1.DataSource = dataTable;
+                dataGridView1.Show();
+
+            }
+            else LoadDatabase();
+        }
+
+        private void guna2Button8_Click_1(object sender, EventArgs e)
+        {
+            NhomMau nhomMau = new NhomMau((MA + 1), this);
+            nhomMau.Show();
+        }
+
+        private void guna2Button9_Click_1(object sender, EventArgs e)
+        {
+            if (Check > -1)
+            {
+                NhomMon nhomMon1 = new NhomMon();
+                nhomMon1.Maloai = Convert.ToInt32(dataGridView3.Rows[Check].Cells[0].Value.ToString());
+                nhomMon1.Tenloai = dataGridView3.Rows[Check].Cells[1].Value.ToString();
+                nhomMon1.MAU = dataGridView3.Rows[Check].Cells[2].Value.ToString();
+                nhomMon.Delete(nhomMon1); LoadDatabase();
+            }
+        }
+
+        private void guna2Button7_Click_1(object sender, EventArgs e)
+        {
+            if (Check > -1)
+            {
+                NhomMon nhomMon1 = new NhomMon();
+                nhomMon1.Maloai = Convert.ToInt32(dataGridView3.Rows[Check].Cells[0].Value.ToString());
+                nhomMon1.Tenloai = dataGridView3.Rows[Check].Cells[1].Value.ToString();
+                nhomMon1.MAU = dataGridView3.Rows[Check].Cells[2].Value.ToString();
+                NhomMau nhomMau = new NhomMau(nhomMon1, this);
+                nhomMau.Show();
+
+            }
+        }
+
+        private void guna2TextBox2_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button18_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(3);
+        }
+
+        private void guna2Button21_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(1);
+            LoadDatabase();
+        }
+
+        private void guna2Button19_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(2);
+            LoadDatabase();
+        }
+
+        private void guna2Button20_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(0);
+            LoadDatabase();
         }
     }
 }

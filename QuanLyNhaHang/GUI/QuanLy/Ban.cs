@@ -37,7 +37,7 @@ namespace QuanLyCafe.Gul
             textBox1.Text = ""+ban.MaBan;
             textBox2.Text = "" + ban.TenBan;
             this.ban1 = ban;
-            button1.Text = "Lưu";
+            btntao.Text = "Lưu";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -48,7 +48,7 @@ namespace QuanLyCafe.Gul
         private void button1_Click(object sender, EventArgs e)
         {
             DAL.DALBan dALBan = new DAL.DALBan();
-            if (button1.Text.Equals("Lưu"))
+            if (btntao.Text.Equals("Lưu"))
             {
                 ban1.TenBan = textBox2.Text;
                 dALBan.UpdeteBan(ban1);
@@ -93,6 +93,72 @@ namespace QuanLyCafe.Gul
                 MessageBox.Show("Bạn phải nhập bằng số");
             }
 
+        }
+
+        private void btntao_Click(object sender, EventArgs e)
+        {
+            DAL.DALBan dALBan = new DAL.DALBan();
+            try
+            {
+                int n = Convert.ToInt32(textBox3.Text);
+                if (n >= 0)
+                {
+                    for (int i = 0; i < n; i++)
+                    {
+                        ban1 = new DTO.Ban();
+                        ban1.MaBan = quanLy.MaBan;
+                        ban1.TenBan = "Bàn " + quanLy.MaBan;
+                        ban1.TrangThai = " Đang Trống";
+                        dALBan.InsertBan(ban1);
+                        quanLy.MaBan++;
+                        quanLy.LoadDatabase();
+                    }
+                    Dispose();
+                }
+                else
+                {
+                    MessageBox.Show("Số nhập vào không âm");
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Bạn phải nhập bằng số");
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            DAL.DALBan dALBan = new DAL.DALBan();
+            if (btnthem.Text.Equals("Lưu"))
+            {
+                ban1.TenBan = textBox2.Text;
+                dALBan.UpdeteBan(ban1);
+            }
+            else
+            {
+                ban1 = new DTO.Ban();
+                ban1.MaBan = Convert.ToInt32(textBox1.Text);
+                ban1.TenBan = textBox2.Text;
+                ban1.TrangThai = " Đang Trống ";
+                dALBan.InsertBan(ban1);
+            }
+            quanLy.LoadDatabase();
+            Dispose();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
+
+        private void btnhuy_Click(object sender, EventArgs e)
+        {
+            Dispose();
         }
     }
 }

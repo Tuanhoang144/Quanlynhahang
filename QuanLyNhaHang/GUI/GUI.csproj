@@ -75,35 +75,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NhanVien\ChonMon.cs">
+    <Compile Include="QuanLy\ChonMon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NhanVien\ChonMon.Designer.cs">
+    <Compile Include="QuanLy\ChonMon.Designer.cs">
       <DependentUpon>ChonMon.cs</DependentUpon>
     </Compile>
-    <Compile Include="NhanVien\DatMon.cs">
+    <Compile Include="QuanLy\DatMon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NhanVien\DatMon.Designer.cs">
+    <Compile Include="QuanLy\DatMon.Designer.cs">
       <DependentUpon>DatMon.cs</DependentUpon>
-    </Compile>
-    <Compile Include="NhanVien\ThongKe.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="NhanVien\ThongKe.Designer.cs">
-      <DependentUpon>ThongKe.cs</DependentUpon>
-    </Compile>
-    <Compile Include="NhanVien\TrangChu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="NhanVien\TrangChu.Designer.cs">
-      <DependentUpon>TrangChu.cs</DependentUpon>
     </Compile>
     <Compile Include="QuanLy\Ban.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="QuanLy\Ban.Designer.cs">
       <DependentUpon>Ban.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLy\BanHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLy\BanHang.Designer.cs">
+      <DependentUpon>BanHang.cs</DependentUpon>
     </Compile>
     <Compile Include="QuanLy\Formdangnhap.cs">
       <SubType>Form</SubType>
@@ -149,21 +143,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="NhanVien\ChonMon.resx">
+    <EmbeddedResource Include="QuanLy\ChonMon.resx">
       <DependentUpon>ChonMon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NhanVien\DatMon.resx">
+    <EmbeddedResource Include="QuanLy\DatMon.resx">
       <DependentUpon>DatMon.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="NhanVien\ThongKe.resx">
-      <DependentUpon>ThongKe.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="NhanVien\TrangChu.resx">
-      <DependentUpon>TrangChu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="QuanLy\Ban.resx">
       <DependentUpon>Ban.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLy\BanHang.resx">
+      <DependentUpon>BanHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLy\Formdangnhap.resx">
       <DependentUpon>Formdangnhap.cs</DependentUpon>
@@ -210,9 +201,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Capture.PNG" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\BUS\BUS.csproj">
       <Project>{3f516a42-794e-4b0e-a1ca-76ce4efab0e5}</Project>
       <Name>BUS</Name>
@@ -257,6 +245,9 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

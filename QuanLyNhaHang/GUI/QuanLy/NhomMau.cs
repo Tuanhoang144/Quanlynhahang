@@ -74,5 +74,43 @@ namespace QuanLyCafe.Gul
         {
             Dispose();
         }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            ColorDialog colorDialog = new ColorDialog();
+            if (colorDialog.ShowDialog() == DialogResult.OK)
+            {
+                panel1.BackColor = colorDialog.Color;
+
+            }
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            if (nhomMon == null)
+            {
+                nhomMon = new NhomMon();
+                nhomMon.Maloai = Convert.ToInt32(textBox2.Text);
+                nhomMon.Tenloai = textBox1.Text;
+                nhomMon.MAU = panel1.BackColor.R + "," + panel1.BackColor.B + "," + panel1.BackColor.B;
+                quanLy.AddNhom(nhomMon);
+                this.Dispose();
+
+            }
+            else
+            {
+                nhomMon = new NhomMon();
+                nhomMon.Maloai = Convert.ToInt32(textBox2.Text);
+                nhomMon.Tenloai = textBox1.Text;
+                nhomMon.MAU = panel1.BackColor.R + "," + panel1.BackColor.B + "," + panel1.BackColor.B;
+                quanLy.Update(nhomMon);
+                this.Dispose();
+            }
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
     }
 }

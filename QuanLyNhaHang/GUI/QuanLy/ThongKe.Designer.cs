@@ -30,7 +30,6 @@
         {
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,12 +40,13 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.btnthongke = new Guna.UI2.WinForms.Guna2Button();
-            this.btnxuatfile = new Guna.UI2.WinForms.Guna2Button();
             this.groupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
             this.guna2GroupBox2 = new Guna.UI2.WinForms.Guna2GroupBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.datatime1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.datatime2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.btnthongkke = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.groupBox3.SuspendLayout();
@@ -68,7 +68,7 @@
             this.dataGridView2.RowHeadersVisible = false;
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView2.Size = new System.Drawing.Size(483, 318);
+            this.dataGridView2.Size = new System.Drawing.Size(505, 318);
             this.dataGridView2.TabIndex = 0;
             // 
             // dataGridView3
@@ -77,26 +77,14 @@
             this.dataGridView3.AllowUserToDeleteRows = false;
             this.dataGridView3.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(4, 42);
+            this.dataGridView3.Location = new System.Drawing.Point(0, 42);
             this.dataGridView3.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.ReadOnly = true;
             this.dataGridView3.RowHeadersWidth = 51;
             this.dataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView3.Size = new System.Drawing.Size(545, 318);
+            this.dataGridView3.Size = new System.Drawing.Size(556, 318);
             this.dataGridView3.TabIndex = 0;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.CustomFormat = "mm/dd/yyyy";
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker2.Location = new System.Drawing.Point(299, 13);
-            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4);
-            this.dateTimePicker2.MaxDate = new System.DateTime(2030, 8, 18, 0, 0, 0, 0);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(265, 22);
-            this.dateTimePicker2.TabIndex = 4;
-            this.dateTimePicker2.Value = new System.DateTime(2021, 5, 27, 0, 0, 0, 0);
             // 
             // label1
             // 
@@ -149,11 +137,12 @@
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.label3);
-            this.groupBox3.Location = new System.Drawing.Point(12, 425);
+            this.groupBox3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.groupBox3.Location = new System.Drawing.Point(0, 435);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox3.Size = new System.Drawing.Size(976, 133);
+            this.groupBox3.Size = new System.Drawing.Size(1108, 149);
             this.groupBox3.TabIndex = 10;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Thống Kê";
@@ -209,95 +198,135 @@
             this.label7.TabIndex = 12;
             this.label7.Text = "label7";
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(28, 13);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(235, 22);
-            this.dateTimePicker1.TabIndex = 3;
-            this.dateTimePicker1.Value = new System.DateTime(2019, 4, 21, 0, 0, 0, 0);
-            // 
-            // btnthongke
-            // 
-            this.btnthongke.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnthongke.BorderRadius = 5;
-            this.btnthongke.CheckedState.Parent = this.btnthongke;
-            this.btnthongke.CustomImages.Parent = this.btnthongke;
-            this.btnthongke.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(152)))), ((int)(((byte)(126)))));
-            this.btnthongke.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnthongke.ForeColor = System.Drawing.Color.White;
-            this.btnthongke.HoverState.Parent = this.btnthongke;
-            this.btnthongke.Location = new System.Drawing.Point(611, 2);
-            this.btnthongke.Name = "btnthongke";
-            this.btnthongke.ShadowDecoration.Parent = this.btnthongke;
-            this.btnthongke.Size = new System.Drawing.Size(171, 33);
-            this.btnthongke.TabIndex = 3;
-            this.btnthongke.Text = "Thông Kê";
-            this.btnthongke.Click += new System.EventHandler(this.btnthongke_Click);
-            // 
-            // btnxuatfile
-            // 
-            this.btnxuatfile.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnxuatfile.BorderRadius = 5;
-            this.btnxuatfile.CheckedState.Parent = this.btnxuatfile;
-            this.btnxuatfile.CustomImages.Parent = this.btnxuatfile;
-            this.btnxuatfile.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(152)))), ((int)(((byte)(126)))));
-            this.btnxuatfile.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnxuatfile.ForeColor = System.Drawing.Color.White;
-            this.btnxuatfile.HoverState.Parent = this.btnxuatfile;
-            this.btnxuatfile.Location = new System.Drawing.Point(825, 2);
-            this.btnxuatfile.Name = "btnxuatfile";
-            this.btnxuatfile.ShadowDecoration.Parent = this.btnxuatfile;
-            this.btnxuatfile.Size = new System.Drawing.Size(163, 33);
-            this.btnxuatfile.TabIndex = 15;
-            this.btnxuatfile.Text = "Xuất File Excel";
-            this.btnxuatfile.Click += new System.EventHandler(this.btnxuatfile_Click);
-            // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.BorderColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.dataGridView2);
-            this.groupBox1.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(152)))), ((int)(((byte)(126)))));
+            this.groupBox1.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox1.Location = new System.Drawing.Point(12, 57);
+            this.groupBox1.ForeColor = System.Drawing.Color.Black;
+            this.groupBox1.Location = new System.Drawing.Point(20, 50);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.ShadowDecoration.Parent = this.groupBox1;
-            this.groupBox1.Size = new System.Drawing.Size(488, 382);
+            this.groupBox1.Size = new System.Drawing.Size(506, 395);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.Text = "Thống Kê Hoá Đơn";
             // 
             // guna2GroupBox2
             // 
+            this.guna2GroupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2GroupBox2.BorderColor = System.Drawing.Color.Transparent;
             this.guna2GroupBox2.Controls.Add(this.dataGridView3);
-            this.guna2GroupBox2.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(152)))), ((int)(((byte)(126)))));
+            this.guna2GroupBox2.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
             this.guna2GroupBox2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GroupBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2GroupBox2.Location = new System.Drawing.Point(506, 57);
+            this.guna2GroupBox2.ForeColor = System.Drawing.Color.Black;
+            this.guna2GroupBox2.Location = new System.Drawing.Point(533, 50);
             this.guna2GroupBox2.Name = "guna2GroupBox2";
             this.guna2GroupBox2.ShadowDecoration.Parent = this.guna2GroupBox2;
             this.guna2GroupBox2.Size = new System.Drawing.Size(556, 364);
             this.guna2GroupBox2.TabIndex = 2;
             this.guna2GroupBox2.Text = "Thống Kê Hoá Đơn";
             // 
+            // datatime1
+            // 
+            this.datatime1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.datatime1.CheckedState.Parent = this.datatime1;
+            this.datatime1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.datatime1.HoverState.Parent = this.datatime1;
+            this.datatime1.Location = new System.Drawing.Point(68, 8);
+            this.datatime1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.datatime1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.datatime1.Name = "datatime1";
+            this.datatime1.ShadowDecoration.Parent = this.datatime1;
+            this.datatime1.Size = new System.Drawing.Size(238, 36);
+            this.datatime1.TabIndex = 1;
+            this.datatime1.Value = new System.DateTime(2019, 4, 21, 20, 29, 0, 0);
+            this.datatime1.ValueChanged += new System.EventHandler(this.guna2DateTimePicker1_ValueChanged);
+            // 
+            // datatime2
+            // 
+            this.datatime2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.datatime2.CheckedState.Parent = this.datatime2;
+            this.datatime2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.datatime2.HoverState.Parent = this.datatime2;
+            this.datatime2.Location = new System.Drawing.Point(348, 8);
+            this.datatime2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.datatime2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.datatime2.Name = "datatime2";
+            this.datatime2.ShadowDecoration.Parent = this.datatime2;
+            this.datatime2.Size = new System.Drawing.Size(238, 36);
+            this.datatime2.TabIndex = 2;
+            this.datatime2.Value = new System.DateTime(2021, 5, 27, 20, 29, 0, 0);
+            // 
+            // btnthongkke
+            // 
+            this.btnthongkke.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnthongkke.Animated = true;
+            this.btnthongkke.AutoRoundedCorners = true;
+            this.btnthongkke.BorderRadius = 17;
+            this.btnthongkke.CheckedState.Parent = this.btnthongkke;
+            this.btnthongkke.CustomImages.Parent = this.btnthongkke;
+            this.btnthongkke.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
+            this.btnthongkke.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.btnthongkke.ForeColor = System.Drawing.Color.White;
+            this.btnthongkke.HoverState.Parent = this.btnthongkke;
+            this.btnthongkke.Location = new System.Drawing.Point(631, 8);
+            this.btnthongkke.Name = "btnthongkke";
+            this.btnthongkke.ShadowDecoration.Parent = this.btnthongkke;
+            this.btnthongkke.Size = new System.Drawing.Size(178, 36);
+            this.btnthongkke.TabIndex = 40;
+            this.btnthongkke.Text = "Thống Kê";
+            this.btnthongkke.Click += new System.EventHandler(this.btnthongkke_Click);
+            // 
+            // guna2GradientButton1
+            // 
+            this.guna2GradientButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2GradientButton1.Animated = true;
+            this.guna2GradientButton1.AutoRoundedCorners = true;
+            this.guna2GradientButton1.BorderRadius = 17;
+            this.guna2GradientButton1.CheckedState.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.CustomImages.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
+            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton1.HoverState.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.Location = new System.Drawing.Point(831, 8);
+            this.guna2GradientButton1.Name = "guna2GradientButton1";
+            this.guna2GradientButton1.ShadowDecoration.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.Size = new System.Drawing.Size(170, 36);
+            this.guna2GradientButton1.TabIndex = 41;
+            this.guna2GradientButton1.Text = "Xuất File Excel";
+            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
+            // 
             // ThongKe
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1074, 571);
+            this.ClientSize = new System.Drawing.Size(1108, 584);
+            this.Controls.Add(this.guna2GradientButton1);
+            this.Controls.Add(this.btnthongkke);
+            this.Controls.Add(this.datatime2);
             this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.datatime1);
             this.Controls.Add(this.guna2GroupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.btnxuatfile);
-            this.Controls.Add(this.btnthongke);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ThongKe";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ThongKe";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
@@ -312,7 +341,6 @@
         #endregion
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridView dataGridView3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -323,11 +351,12 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private Guna.UI2.WinForms.Guna2Button btnthongke;
-        private Guna.UI2.WinForms.Guna2Button btnxuatfile;
         private Guna.UI2.WinForms.Guna2GroupBox groupBox1;
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox2;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker datatime1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker datatime2;
+        internal Guna.UI2.WinForms.Guna2GradientButton btnthongkke;
+        internal Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
     }
 }

@@ -22,9 +22,7 @@ namespace QuanLyCafe.Gul
             InitializeComponent();
 
             LoadDataBase();
-           
-            groupBox3.ForeColor = trangChu.ForeColor;
-        
+          this.ForeColor = trangChu.ForeColor;
 
         }
 
@@ -47,8 +45,8 @@ namespace QuanLyCafe.Gul
         {
             int a = 0, b = 0;
 
-            DateTime time1 = dateTimePicker1.Value;
-            DateTime time2 = dateTimePicker2.Value;
+            DateTime time1 = datatime1.Value;
+            DateTime time2 = datatime2.Value;
             if (time2.CompareTo(time1) > -1)
             {
                 dataGridView2.DataSource = hoaDon.TimKiemHoaDon(time1, time2);
@@ -119,7 +117,7 @@ namespace QuanLyCafe.Gul
             Microsoft.Office.Interop.Excel.Worksheet worksheet = null;
             worksheet = workbook.Sheets["Sheet1"];
             worksheet = workbook.ActiveSheet;
-            worksheet.Cells[2,10] = " Bảng Thống Kê Từ Ngày "+dateTimePicker1.Value.ToString("dd/MM/yyyy")+" Đến Ngày "+dateTimePicker2.Value.ToString("dd/MM/yyyy");
+            worksheet.Cells[2,10] = " Bảng Thống Kê Từ Ngày "+ datatime1.Value.ToString("dd/MM/yyyy")+" Đến Ngày "+datatime2.Value.ToString("dd/MM/yyyy");
             worksheet.Cells[5, 2] = label4.Text;
             worksheet.Cells[6, 2] = label1.Text;
             worksheet.Cells[7, 2] = label2.Text;
@@ -178,6 +176,22 @@ namespace QuanLyCafe.Gul
         }
 
         private void btnxuatfile_Click(object sender, EventArgs e)
+        {
+            NewMethod();
+        }
+
+
+        private void guna2DateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnthongkke_Click(object sender, EventArgs e)
+        {
+            Thongke();
+        }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
             NewMethod();
         }

@@ -26,7 +26,7 @@ namespace QuanLyCafe.Gul
         private void button2_Click(object sender, EventArgs e)
         {
             Dispose();
-            trang.tabControl1.SelectedIndex = 0;
+         
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
@@ -37,6 +37,16 @@ namespace QuanLyCafe.Gul
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            Dispose();
         }
     }
 }

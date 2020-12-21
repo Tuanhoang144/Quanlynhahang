@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Formdangnhap));
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txbtaikhoan = new Guna.UI2.WinForms.Guna2TextBox();
             this.Guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
@@ -39,7 +39,7 @@
             this.Label1 = new System.Windows.Forms.Label();
             this.btndangnhap = new Guna.UI2.WinForms.Guna2GradientButton();
             this.txbmatkhau = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -74,17 +74,15 @@
             this.panel1.Size = new System.Drawing.Size(1068, 568);
             this.panel1.TabIndex = 18;
             // 
-            // pictureBox1
+            // label3
             // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Padding = new System.Windows.Forms.Padding(6);
-            this.pictureBox1.Size = new System.Drawing.Size(555, 562);
-            this.pictureBox1.TabIndex = 26;
-            this.pictureBox1.TabStop = false;
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.Red;
+            this.label3.Location = new System.Drawing.Point(684, 385);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 17);
+            this.label3.TabIndex = 45;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -117,11 +115,13 @@
             this.txbtaikhoan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txbtaikhoan.HoverState.Parent = this.txbtaikhoan;
             this.txbtaikhoan.Location = new System.Drawing.Point(651, 261);
+            this.txbtaikhoan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbtaikhoan.Name = "txbtaikhoan";
             this.txbtaikhoan.PasswordChar = '\0';
             this.txbtaikhoan.PlaceholderForeColor = System.Drawing.Color.DimGray;
             this.txbtaikhoan.PlaceholderText = "Username";
             this.txbtaikhoan.SelectedText = "";
+            this.txbtaikhoan.SelectionStart = 10;
             this.txbtaikhoan.ShadowDecoration.Parent = this.txbtaikhoan;
             this.txbtaikhoan.Size = new System.Drawing.Size(316, 46);
             this.txbtaikhoan.TabIndex = 43;
@@ -204,6 +204,7 @@
             this.txbmatkhau.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txbmatkhau.HoverState.Parent = this.txbmatkhau;
             this.txbmatkhau.Location = new System.Drawing.Point(651, 334);
+            this.txbmatkhau.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbmatkhau.Name = "txbmatkhau";
             this.txbmatkhau.PasswordChar = '\0';
             this.txbmatkhau.PlaceholderForeColor = System.Drawing.Color.DimGray;
@@ -215,15 +216,17 @@
             this.txbmatkhau.TabIndex = 38;
             this.txbmatkhau.UseSystemPasswordChar = true;
             // 
-            // label3
+            // pictureBox1
             // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(770, 393);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 17);
-            this.label3.TabIndex = 45;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Padding = new System.Windows.Forms.Padding(6);
+            this.pictureBox1.Size = new System.Drawing.Size(555, 562);
+            this.pictureBox1.TabIndex = 26;
+            this.pictureBox1.TabStop = false;
             // 
             // Formdangnhap
             // 

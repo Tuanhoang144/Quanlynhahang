@@ -97,8 +97,6 @@ C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.pd
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.ResolveComReference.cache
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\Nhanvien.ChonMon.resources
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\Nhanvien.DatMon.resources
-C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\Nhanvien.ThongKe.resources
-C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\Nhanvien.TrangChu.resources
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.Ban.resources
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.NhomMau.resources
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.QuanLy.resources
@@ -126,4 +124,5 @@ C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\bin\Debug\Entity
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.CopyComplete
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\bin\Debug\Guna.UI2.dll
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.QuanLy.Formdangnhap.resources
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.QuanLy.BanHang.resources
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.QuanLy.Formtrangchu.resources

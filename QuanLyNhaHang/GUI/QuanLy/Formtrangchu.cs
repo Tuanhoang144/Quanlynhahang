@@ -12,14 +12,12 @@ namespace GUI.QuanLy
 {
     public partial class Formtrangchu : Form
     {
-        public Formtrangchu()
+        
+
+        public Formtrangchu(QuanLyCafe.Gul.TrangChu trangChu)
         {
             InitializeComponent();
         }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

@@ -22,3 +22,4 @@ C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DTO\obj\Debug\DTO.cs
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DTO\obj\Debug\DTO.dll
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DTO\obj\Debug\DTO.pdb
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DTO\obj\Debug\DTO.csprojAssemblyReference.cache

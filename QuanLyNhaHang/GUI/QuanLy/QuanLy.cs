@@ -156,11 +156,8 @@ namespace QuanLyCafe.Gul
             }
             Check = -1;
 
-            foreach (DataRow item in DALBan.TongSoBan().Rows)
-            {
-                label10.Text ="Tổng Số Bàn :" + item["Soluong"].ToString()+" Bàn";
-            }
-
+                label10.Text ="Tổng Số Bàn :" + DALBan.TongSoBan().Rows.Count + " Bàn";
+          
             foreach (DataRow item in ThucDon.TongSoMon().Rows)
             {
                 label11.Text = "Tổng Số Món :" + item["Soluong"].ToString()+" Món";
@@ -549,8 +546,7 @@ namespace QuanLyCafe.Gul
 
         private void guna2Button11_Click(object sender, EventArgs e)
         {
-            Ban ban = new Ban(this);
-            ban.Show();
+        
         }
 
         private void guna2Button10_Click(object sender, EventArgs e)
@@ -584,8 +580,7 @@ namespace QuanLyCafe.Gul
 
         private void guna2Button13_Click(object sender, EventArgs e)
         {
-            Ban ban = new Ban(this, 2);
-            ban.Show();
+         
         }
 
         private void guna2Button17_Click(object sender, EventArgs e)
@@ -726,6 +721,47 @@ namespace QuanLyCafe.Gul
         {
             tabControl1.SelectTab(0);
             LoadDatabase();
+        }
+
+        private void guna2Button13_Click_1(object sender, EventArgs e)
+        {
+            Ban ban = new Ban(this, 2);
+            ban.Show();
+        }
+
+        private void guna2Button12_Click_1(object sender, EventArgs e)
+        {
+            if (Check > -1)
+            {
+                DTO.Ban ban = new DTO.Ban();
+                ban.MaBan = Convert.ToInt32(dataGridView2.Rows[Check].Cells[0].Value.ToString());
+                ban.TenBan = dataGridView2.Rows[Check].Cells[1].Value.ToString();
+                ban.TrangThai = dataGridView2.Rows[Check].Cells[2].Value.ToString();
+                if (DALBan.DeleteBan(ban) == 0)
+                {
+                    MessageBox.Show("Bàn này không thể xóa vui lòng kiểm tra lại tình trạng bàn");
+                }
+                LoadDatabase();
+            }
+        }
+
+        private void guna2Button10_Click_1(object sender, EventArgs e)
+        {
+            if (Check > -1)
+            {
+                DTO.Ban ban = new DTO.Ban();
+                ban.MaBan = Convert.ToInt32(dataGridView2.Rows[Check].Cells[0].Value.ToString());
+                ban.TenBan = dataGridView2.Rows[Check].Cells[1].Value.ToString();
+                ban.TrangThai = dataGridView2.Rows[Check].Cells[2].Value.ToString();
+                Ban ban1 = new Ban(this, ban);
+                ban1.Show();
+            }
+        }
+
+        private void guna2Button11_Click_1(object sender, EventArgs e)
+        {
+            Ban ban = new Ban(this);
+            ban.Show();
         }
     }
 }

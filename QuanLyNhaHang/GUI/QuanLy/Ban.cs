@@ -58,7 +58,7 @@ namespace QuanLyCafe.Gul
                 ban1 = new DTO.Ban();
                 ban1.MaBan = Convert.ToInt32(textBox1.Text);
                 ban1.TenBan = textBox2.Text;
-                ban1.TrangThai = " Đang Trống ";
+                ban1.TrangThai = "Đang Trống";
                 dALBan.InsertBan(ban1);
             }
             quanLy.LoadDatabase();

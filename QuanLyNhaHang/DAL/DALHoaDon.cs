@@ -55,6 +55,8 @@ namespace DAL
             return dataTable;
         }
 
+     
+
         public DataTable TongSoHd(DateTime time1, DateTime time2)
         {
             string Fomat = "yyyy-MM-dd";

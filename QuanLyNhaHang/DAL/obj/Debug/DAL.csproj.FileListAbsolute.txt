@@ -33,3 +33,12 @@ C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DAL\obj\Debug\DAL.cs
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DAL\obj\Debug\DAL.dll
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DAL\obj\Debug\DAL.pdb
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\DAL\bin\Debug\DAL.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\DAL\bin\Debug\DAL.pdb
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\DAL\bin\Debug\DTO.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\DAL\bin\Debug\DTO.pdb
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\DAL\obj\Debug\DAL.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\DAL\obj\Debug\DAL.pdb

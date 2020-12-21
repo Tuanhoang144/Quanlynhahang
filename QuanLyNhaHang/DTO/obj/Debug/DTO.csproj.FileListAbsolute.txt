@@ -23,3 +23,10 @@ C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DTO\obj\Debug\DTO.cs
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DTO\obj\Debug\DTO.dll
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DTO\obj\Debug\DTO.pdb
 C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\DTO\bin\Debug\DTO.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\DTO\bin\Debug\DTO.pdb
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\DTO\obj\Debug\DTO.csproj.ResolveComReference.cache
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\DTO\obj\Debug\DTO.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\DTO\obj\Debug\DTO.pdb

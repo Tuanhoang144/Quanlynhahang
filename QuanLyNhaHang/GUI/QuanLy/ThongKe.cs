@@ -58,8 +58,12 @@ namespace QuanLyCafe.Gul
                 {
                     label1.Text = "Tổng Tiền Bán Được : " + item["TONGTIEN"].ToString() + " VND";
                     label2.Text = "Tổng Tiền Gỉam Gía : " + item["Giamgia"].ToString() + " VND";
-                    a = Convert.ToInt32(item["TONGTIEN"].ToString());
-                    b = Convert.ToInt32(item["Giamgia"].ToString());
+                    ; try
+                    {
+                        a = Convert.ToInt32(item["TONGTIEN"].ToString());
+                        b = Convert.ToInt32(item["Giamgia"].ToString());
+                    }
+                    catch { }
                 }
 
                 foreach (DataRow item in thucDon.SelectThucDon2(time1, time2).Rows)
@@ -78,11 +82,10 @@ namespace QuanLyCafe.Gul
 
                 }
 
-                foreach (DataRow item in ban.TongSoBan().Rows)
-                {
-                    label6.Text = "Tổng Số Bàn : " + item["SOLUONG"].ToString();
+                
+                    label6.Text = "Tổng Số Bàn : " + ban.SelectBan().Rows;
 
-                }
+                
                 foreach (DataRow item in nhomMon.TongNhomMon().Rows)
                 {
                     label8.Text = "Tổng Số Nhóm Món : " + item["SOLUONG"].ToString();

@@ -30,14 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Formtrangchu));
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label20 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.paneltongdonhang = new Guna.UI2.WinForms.Guna2Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.paneldoanhthu = new Guna.UI2.WinForms.Guna2Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -74,6 +78,8 @@
             this.guna2ProgressBar1 = new Guna.UI2.WinForms.Guna2ProgressBar();
             this.label39 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel7 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2VProgressBar9 = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.guna2VProgressBar8 = new Guna.UI2.WinForms.Guna2VProgressBar();
             this.guna2Separator3 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2VProgressBar7 = new Guna.UI2.WinForms.Guna2VProgressBar();
             this.guna2VProgressBar6 = new Guna.UI2.WinForms.Guna2VProgressBar();
@@ -88,24 +94,18 @@
             this.label43 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
-            this.guna2VProgressBar8 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar9 = new Guna.UI2.WinForms.Guna2VProgressBar();
             this.guna2Separator4 = new Guna.UI2.WinForms.Guna2Separator();
-            this.label20 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.guna2Panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.paneltongdonhang.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.paneldoanhthu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.guna2CustomGradientPanel5.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.guna2CustomGradientPanel6.SuspendLayout();
             this.guna2CustomGradientPanel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel2
@@ -124,6 +124,26 @@
             this.guna2Panel2.Size = new System.Drawing.Size(178, 115);
             this.guna2Panel2.TabIndex = 13;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(108, 19);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(57, 59);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 18;
+            this.pictureBox4.TabStop = false;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label20.Location = new System.Drawing.Point(8, 90);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(77, 13);
+            this.label20.TabIndex = 6;
+            this.label20.Text = "Đang Phục Vụ";
+            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -131,7 +151,7 @@
             this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label13.Location = new System.Drawing.Point(53, 53);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(23, 25);
+            this.label13.Size = new System.Drawing.Size(18, 20);
             this.label13.TabIndex = 17;
             this.label13.Text = "0";
             // 
@@ -139,9 +159,9 @@
             // 
             this.label15.AutoSize = true;
             this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label15.Location = new System.Drawing.Point(140, 90);
+            this.label15.Location = new System.Drawing.Point(119, 89);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(16, 17);
+            this.label15.Size = new System.Drawing.Size(13, 13);
             this.label15.TabIndex = 15;
             this.label15.Text = "0";
             // 
@@ -151,7 +171,7 @@
             this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label16.Location = new System.Drawing.Point(14, 107);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(0, 17);
+            this.label16.Size = new System.Drawing.Size(0, 13);
             this.label16.TabIndex = 14;
             // 
             // label18
@@ -159,9 +179,9 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label18.Location = new System.Drawing.Point(26, 19);
+            this.label18.Location = new System.Drawing.Point(16, 30);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(50, 23);
+            this.label18.Size = new System.Drawing.Size(41, 19);
             this.label18.TabIndex = 12;
             this.label18.Text = "Bàn:";
             // 
@@ -178,14 +198,24 @@
             this.paneltongdonhang.Size = new System.Drawing.Size(179, 115);
             this.paneltongdonhang.TabIndex = 14;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(119, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(57, 59);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(50, 56);
+            this.label7.Location = new System.Drawing.Point(9, 87);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(23, 25);
+            this.label7.Size = new System.Drawing.Size(15, 16);
             this.label7.TabIndex = 11;
             this.label7.Text = "0";
             // 
@@ -194,9 +224,9 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label12.Location = new System.Drawing.Point(8, 19);
+            this.label12.Location = new System.Drawing.Point(3, 44);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(109, 23);
+            this.label12.Size = new System.Drawing.Size(88, 19);
             this.label12.TabIndex = 6;
             this.label12.Text = "Doanh Thu:";
             // 
@@ -213,14 +243,24 @@
             this.paneldoanhthu.Size = new System.Drawing.Size(183, 115);
             this.paneldoanhthu.TabIndex = 12;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(119, 19);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(57, 59);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 6;
+            this.pictureBox3.TabStop = false;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(54, 56);
+            this.label6.Location = new System.Drawing.Point(50, 73);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(23, 25);
+            this.label6.Size = new System.Drawing.Size(18, 20);
             this.label6.TabIndex = 5;
             this.label6.Text = "0";
             // 
@@ -229,9 +269,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(16, 19);
+            this.label1.Location = new System.Drawing.Point(11, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 23);
+            this.label1.Size = new System.Drawing.Size(84, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tài Khoản:";
             // 
@@ -241,7 +281,7 @@
             this.label14.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(399, 11);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(307, 34);
+            this.label14.Size = new System.Drawing.Size(241, 26);
             this.label14.TabIndex = 19;
             this.label14.Text = "Tổng Quan Nhà Hàng";
             // 
@@ -308,7 +348,7 @@
             this.label22.ForeColor = System.Drawing.Color.SeaGreen;
             this.label22.Location = new System.Drawing.Point(385, 227);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(39, 19);
+            this.label22.Size = new System.Drawing.Size(29, 16);
             this.label22.TabIndex = 35;
             this.label22.Text = "908";
             // 
@@ -320,7 +360,7 @@
             this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label23.Location = new System.Drawing.Point(385, 207);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(40, 19);
+            this.label23.Size = new System.Drawing.Size(34, 16);
             this.label23.TabIndex = 34;
             this.label23.Text = "Hậu";
             // 
@@ -332,7 +372,7 @@
             this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label24.Location = new System.Drawing.Point(326, 227);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(39, 19);
+            this.label24.Size = new System.Drawing.Size(29, 16);
             this.label24.TabIndex = 33;
             this.label24.Text = "745";
             // 
@@ -344,7 +384,7 @@
             this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label25.Location = new System.Drawing.Point(326, 207);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(45, 19);
+            this.label25.Size = new System.Drawing.Size(36, 16);
             this.label25.TabIndex = 32;
             this.label25.Text = "Vĩnh";
             // 
@@ -356,7 +396,7 @@
             this.label26.ForeColor = System.Drawing.Color.Red;
             this.label26.Location = new System.Drawing.Point(275, 227);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(39, 19);
+            this.label26.Size = new System.Drawing.Size(29, 16);
             this.label26.TabIndex = 38;
             this.label26.Text = "107";
             // 
@@ -368,7 +408,7 @@
             this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label27.Location = new System.Drawing.Point(275, 207);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(31, 19);
+            this.label27.Size = new System.Drawing.Size(25, 16);
             this.label27.TabIndex = 23;
             this.label27.Text = "Vũ";
             // 
@@ -380,7 +420,7 @@
             this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label28.Location = new System.Drawing.Point(202, 227);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(39, 19);
+            this.label28.Size = new System.Drawing.Size(29, 16);
             this.label28.TabIndex = 29;
             this.label28.Text = "465";
             // 
@@ -392,7 +432,7 @@
             this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label29.Location = new System.Drawing.Point(202, 207);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(61, 19);
+            this.label29.Size = new System.Drawing.Size(53, 16);
             this.label29.TabIndex = 28;
             this.label29.Text = "Trường";
             // 
@@ -404,7 +444,7 @@
             this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label30.Location = new System.Drawing.Point(135, 226);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(39, 19);
+            this.label30.Size = new System.Drawing.Size(29, 16);
             this.label30.TabIndex = 27;
             this.label30.Text = "442";
             // 
@@ -416,7 +456,7 @@
             this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label31.Location = new System.Drawing.Point(135, 206);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(61, 19);
+            this.label31.Size = new System.Drawing.Size(51, 16);
             this.label31.TabIndex = 26;
             this.label31.Text = "Vương";
             // 
@@ -428,7 +468,7 @@
             this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label32.Location = new System.Drawing.Point(75, 226);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(39, 19);
+            this.label32.Size = new System.Drawing.Size(29, 16);
             this.label32.TabIndex = 25;
             this.label32.Text = "340";
             // 
@@ -440,7 +480,7 @@
             this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label33.Location = new System.Drawing.Point(75, 206);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(45, 19);
+            this.label33.Size = new System.Drawing.Size(39, 16);
             this.label33.TabIndex = 24;
             this.label33.Text = "Tuấn";
             // 
@@ -452,7 +492,7 @@
             this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label34.Location = new System.Drawing.Point(53, 278);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(119, 23);
+            this.label34.Size = new System.Drawing.Size(99, 19);
             this.label34.TabIndex = 30;
             this.label34.Text = "Tổng Quan:";
             // 
@@ -464,7 +504,7 @@
             this.label35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label35.Location = new System.Drawing.Point(53, 174);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(217, 23);
+            this.label35.Size = new System.Drawing.Size(176, 19);
             this.label35.TabIndex = 31;
             this.label35.Text = "Nhân Viên Hoạt Động";
             // 
@@ -533,7 +573,7 @@
             this.label19.ForeColor = System.Drawing.Color.White;
             this.label19.Location = new System.Drawing.Point(9, 49);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(144, 22);
+            this.label19.Size = new System.Drawing.Size(108, 20);
             this.label19.TabIndex = 2;
             this.label19.Text = "Tháng 11 2020";
             // 
@@ -545,7 +585,7 @@
             this.label36.ForeColor = System.Drawing.Color.White;
             this.label36.Location = new System.Drawing.Point(9, 14);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(177, 23);
+            this.label36.Size = new System.Drawing.Size(147, 19);
             this.label36.TabIndex = 2;
             this.label36.Text = "Tiến độ trung bình";
             // 
@@ -573,7 +613,7 @@
             this.label37.ForeColor = System.Drawing.Color.White;
             this.label37.Location = new System.Drawing.Point(21, 53);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(0, 22);
+            this.label37.Size = new System.Drawing.Size(0, 20);
             this.label37.TabIndex = 2;
             // 
             // label38
@@ -584,7 +624,7 @@
             this.label38.ForeColor = System.Drawing.Color.White;
             this.label38.Location = new System.Drawing.Point(49, 28);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(265, 35);
+            this.label38.Size = new System.Drawing.Size(213, 26);
             this.label38.TabIndex = 2;
             this.label38.Text = "Quản Lý Nhà Hàng";
             // 
@@ -666,7 +706,7 @@
             this.label39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label39.Location = new System.Drawing.Point(25, 22);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(224, 23);
+            this.label39.Size = new System.Drawing.Size(179, 19);
             this.label39.TabIndex = 2;
             this.label39.Text = "Các chức năng khác:";
             // 
@@ -690,6 +730,32 @@
             this.guna2CustomGradientPanel7.ShadowDecoration.Parent = this.guna2CustomGradientPanel7;
             this.guna2CustomGradientPanel7.Size = new System.Drawing.Size(284, 242);
             this.guna2CustomGradientPanel7.TabIndex = 3;
+            // 
+            // guna2VProgressBar9
+            // 
+            this.guna2VProgressBar9.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.guna2VProgressBar9.Location = new System.Drawing.Point(262, 56);
+            this.guna2VProgressBar9.Name = "guna2VProgressBar9";
+            this.guna2VProgressBar9.ProgressColor = System.Drawing.Color.Red;
+            this.guna2VProgressBar9.ProgressColor2 = System.Drawing.Color.Red;
+            this.guna2VProgressBar9.ShadowDecoration.Parent = this.guna2VProgressBar9;
+            this.guna2VProgressBar9.Size = new System.Drawing.Size(10, 148);
+            this.guna2VProgressBar9.TabIndex = 6;
+            this.guna2VProgressBar9.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.guna2VProgressBar9.Value = 18;
+            // 
+            // guna2VProgressBar8
+            // 
+            this.guna2VProgressBar8.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.guna2VProgressBar8.Location = new System.Drawing.Point(233, 56);
+            this.guna2VProgressBar8.Name = "guna2VProgressBar8";
+            this.guna2VProgressBar8.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(159)))), ((int)(((byte)(1)))));
+            this.guna2VProgressBar8.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(159)))), ((int)(((byte)(1)))));
+            this.guna2VProgressBar8.ShadowDecoration.Parent = this.guna2VProgressBar8;
+            this.guna2VProgressBar8.Size = new System.Drawing.Size(10, 148);
+            this.guna2VProgressBar8.TabIndex = 5;
+            this.guna2VProgressBar8.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.guna2VProgressBar8.Value = 53;
             // 
             // guna2Separator3
             // 
@@ -797,7 +863,7 @@
             this.label40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label40.Location = new System.Drawing.Point(11, 32);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(43, 21);
+            this.label40.Size = new System.Drawing.Size(34, 17);
             this.label40.TabIndex = 2;
             this.label40.Text = "48h ";
             // 
@@ -809,7 +875,7 @@
             this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label41.Location = new System.Drawing.Point(8, 9);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(81, 23);
+            this.label41.Size = new System.Drawing.Size(69, 19);
             this.label41.TabIndex = 2;
             this.label41.Text = "Tiến Độ ";
             // 
@@ -821,7 +887,7 @@
             this.label42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label42.Location = new System.Drawing.Point(26, 47);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(147, 23);
+            this.label42.Size = new System.Drawing.Size(122, 21);
             this.label42.TabIndex = 2;
             this.label42.Text = "Tháng 11 2020";
             // 
@@ -833,7 +899,7 @@
             this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label43.Location = new System.Drawing.Point(26, 152);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(89, 21);
+            this.label43.Size = new System.Drawing.Size(67, 17);
             this.label43.TabIndex = 2;
             this.label43.Text = "Average:";
             // 
@@ -845,7 +911,7 @@
             this.label44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label44.Location = new System.Drawing.Point(25, 118);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(99, 21);
+            this.label44.Size = new System.Drawing.Size(73, 17);
             this.label44.TabIndex = 2;
             this.label44.Text = "Yesterday:";
             // 
@@ -857,35 +923,9 @@
             this.label45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label45.Location = new System.Drawing.Point(25, 81);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(66, 21);
+            this.label45.Size = new System.Drawing.Size(50, 17);
             this.label45.TabIndex = 2;
             this.label45.Text = "Today:";
-            // 
-            // guna2VProgressBar8
-            // 
-            this.guna2VProgressBar8.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.guna2VProgressBar8.Location = new System.Drawing.Point(233, 56);
-            this.guna2VProgressBar8.Name = "guna2VProgressBar8";
-            this.guna2VProgressBar8.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(159)))), ((int)(((byte)(1)))));
-            this.guna2VProgressBar8.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(159)))), ((int)(((byte)(1)))));
-            this.guna2VProgressBar8.ShadowDecoration.Parent = this.guna2VProgressBar8;
-            this.guna2VProgressBar8.Size = new System.Drawing.Size(10, 148);
-            this.guna2VProgressBar8.TabIndex = 5;
-            this.guna2VProgressBar8.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar8.Value = 53;
-            // 
-            // guna2VProgressBar9
-            // 
-            this.guna2VProgressBar9.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.guna2VProgressBar9.Location = new System.Drawing.Point(262, 56);
-            this.guna2VProgressBar9.Name = "guna2VProgressBar9";
-            this.guna2VProgressBar9.ProgressColor = System.Drawing.Color.Red;
-            this.guna2VProgressBar9.ProgressColor2 = System.Drawing.Color.Red;
-            this.guna2VProgressBar9.ShadowDecoration.Parent = this.guna2VProgressBar9;
-            this.guna2VProgressBar9.Size = new System.Drawing.Size(10, 148);
-            this.guna2VProgressBar9.TabIndex = 6;
-            this.guna2VProgressBar9.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar9.Value = 18;
             // 
             // guna2Separator4
             // 
@@ -894,58 +934,18 @@
             this.guna2Separator4.Size = new System.Drawing.Size(589, 10);
             this.guna2Separator4.TabIndex = 45;
             // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label20.Location = new System.Drawing.Point(8, 90);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(99, 17);
-            this.label20.TabIndex = 6;
-            this.label20.Text = "Đang Phục Vụ";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(119, 19);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(57, 59);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(119, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(57, 59);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(108, 19);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(57, 59);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 18;
-            this.pictureBox4.TabStop = false;
-            // 
             // Formtrangchu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1108, 584);
+            this.Controls.Add(this.guna2Separator1);
             this.Controls.Add(this.guna2Separator4);
             this.Controls.Add(this.guna2CustomGradientPanel6);
             this.Controls.Add(this.guna2CustomGradientPanel1);
             this.Controls.Add(this.guna2Separator2);
             this.Controls.Add(this.guna2CircleProgressBar1);
             this.Controls.Add(this.guna2CustomGradientPanel5);
-            this.Controls.Add(this.guna2Separator1);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label24);
@@ -971,10 +971,13 @@
             this.Text = "Formtrangchu";
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.paneltongdonhang.ResumeLayout(false);
             this.paneltongdonhang.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.paneldoanhthu.ResumeLayout(false);
             this.paneldoanhthu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.guna2CustomGradientPanel5.ResumeLayout(false);
             this.guna2CustomGradientPanel5.PerformLayout();
             this.guna2CustomGradientPanel1.ResumeLayout(false);
@@ -984,9 +987,6 @@
             this.guna2CustomGradientPanel6.PerformLayout();
             this.guna2CustomGradientPanel7.ResumeLayout(false);
             this.guna2CustomGradientPanel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

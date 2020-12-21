@@ -19,9 +19,9 @@ namespace DAL
             sqlDataAdapter.Fill(dataTable);
             return dataTable;
         }
-        public DataTable    TongSoBan()
+        public DataTable  TongSoBan()
         {
-            string sql = "Select Count(*) as SOLUONG from Ban";
+            string sql = " Select * from Ban Where TRANGTHAI not like N'%NG'";
             SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(sql, sqlConnection());
             DataTable dataTable = new DataTable();
             sqlDataAdapter.Fill(dataTable);
@@ -31,11 +31,13 @@ namespace DAL
         {
             try
             {
-                string sql = string.Format("INSERT INTO BAN (MABAN ,TENBAN,TRANGTHAI) VALUES ( '{0}','{1}','{2}')", ban.MaBan, ban.TenBan, ban.TrangThai);
+                string sql = string.Format("INSERT INTO BAN (MABAN ,TENBAN,TRANGTHAI) VALUES ( '{0}','{1}','{2}')", ban.MaBan, ban.TenBan,"Đang Trống");
                 SqlConnection sqlConnection1 = sqlConnection(); sqlConnection1.Open();
                 SqlCommand sqlCommand = new SqlCommand(sql, sqlConnection1);
                 sqlCommand.ExecuteNonQuery();
+                UpdeteBan(ban);
                 sqlConnection1.Close();
+                
             }
             catch (SqlException ex)
             {
@@ -68,7 +70,7 @@ namespace DAL
             try
             {
                 sqlConnection1.Open();
-                string sql = string.Format("delete Ban where MABAN = {0} and TrangThai= 1", ban.MaBan);  
+                string sql = string.Format("delete Ban where MABAN = {0}", ban.MaBan);  
                 SqlCommand sqlCommand = new SqlCommand(sql, sqlConnection1);
                if (sqlCommand.ExecuteNonQuery()>0)
                 { return 1; }

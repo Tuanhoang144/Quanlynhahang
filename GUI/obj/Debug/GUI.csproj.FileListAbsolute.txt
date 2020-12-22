@@ -1,0 +1,249 @@
+G:\QuanLyCafe\GUI\bin\Debug\GUI.exe
+G:\QuanLyCafe\GUI\bin\Debug\GUI.pdb
+G:\QuanLyCafe\GUI\bin\Debug\DAL.dll
+G:\QuanLyCafe\GUI\bin\Debug\DTO.dll
+G:\QuanLyCafe\GUI\bin\Debug\DAL.pdb
+G:\QuanLyCafe\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+G:\QuanLyCafe\GUI\obj\Debug\Interop.VSTOEE100.dll
+G:\QuanLyCafe\GUI\obj\Debug\GUI.csproj.ResolveComReference.cache
+G:\QuanLyCafe\GUI\obj\Debug\Nhanvien.ChonMon.resources
+G:\QuanLyCafe\GUI\obj\Debug\Nhanvien.DatMon.resources
+G:\QuanLyCafe\GUI\obj\Debug\Nhanvien.ThongKe.resources
+G:\QuanLyCafe\GUI\obj\Debug\Nhanvien.TrangChu.resources
+G:\QuanLyCafe\GUI\obj\Debug\QuanLyCafe.Gul.Ban.resources
+G:\QuanLyCafe\GUI\obj\Debug\GUI.Gul.Form1.resources
+G:\QuanLyCafe\GUI\obj\Debug\QuanLyCafe.Gul.NhomMau.resources
+G:\QuanLyCafe\GUI\obj\Debug\QuanLyCafe.Gul.QuanLy.resources
+G:\QuanLyCafe\GUI\obj\Debug\QuanLyCafe.Gul.TaiKhoan.resources
+G:\QuanLyCafe\GUI\obj\Debug\QuanLyCafe.Gul.ThongKe.resources
+G:\QuanLyCafe\GUI\obj\Debug\QuanLyCafe.Gul.TrangChu.resources
+G:\QuanLyCafe\GUI\obj\Debug\GUI.Properties.Resources.resources
+G:\QuanLyCafe\GUI\obj\Debug\GUI.XtraReport1.resources
+G:\QuanLyCafe\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+G:\QuanLyCafe\GUI\obj\Debug\GUI.exe.licenses
+G:\QuanLyCafe\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+G:\QuanLyCafe\GUI\bin\Debug\GUI.exe.config
+G:\QuanLyCafe\GUI\bin\Debug\BUS.dll
+G:\QuanLyCafe\GUI\bin\Debug\DevComponents.DotNetBar.Charts.dll
+G:\QuanLyCafe\GUI\bin\Debug\DevComponents.DotNetBar.Keyboard.dll
+G:\QuanLyCafe\GUI\bin\Debug\DevComponents.DotNetBar.Layout.dll
+G:\QuanLyCafe\GUI\bin\Debug\DevComponents.DotNetBar.SuperGrid.dll
+G:\QuanLyCafe\GUI\bin\Debug\DevComponents.DotNetBar2.dll
+G:\QuanLyCafe\GUI\bin\Debug\DevComponents.Instrumentation.dll
+G:\QuanLyCafe\GUI\bin\Debug\EntityFramework.dll
+G:\QuanLyCafe\GUI\bin\Debug\EntityFramework.SqlServer.dll
+G:\QuanLyCafe\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+G:\QuanLyCafe\GUI\bin\Debug\BUS.pdb
+G:\QuanLyCafe\GUI\bin\Debug\DTO.pdb
+G:\QuanLyCafe\GUI\bin\Debug\DevComponents.DotNetBar.Keyboard.xml
+G:\QuanLyCafe\GUI\bin\Debug\DevComponents.DotNetBar.SuperGrid.xml
+G:\QuanLyCafe\GUI\bin\Debug\DevComponents.DotNetBar2.xml
+G:\QuanLyCafe\GUI\bin\Debug\DevComponents.Instrumentation.xml
+G:\QuanLyCafe\GUI\bin\Debug\EntityFramework.xml
+G:\QuanLyCafe\GUI\bin\Debug\EntityFramework.SqlServer.xml
+G:\QuanLyCafe\GUI\obj\Debug\GUI.csproj.CopyComplete
+G:\QuanLyCafe\GUI\obj\Debug\GUI.exe
+G:\QuanLyCafe\GUI\obj\Debug\GUI.pdb
+G:\QuanLyNhaHang\GUI\bin\Debug\GUI.exe.config
+G:\QuanLyNhaHang\GUI\bin\Debug\GUI.exe
+G:\QuanLyNhaHang\GUI\bin\Debug\GUI.pdb
+G:\QuanLyNhaHang\GUI\bin\Debug\BUS.dll
+G:\QuanLyNhaHang\GUI\bin\Debug\DAL.dll
+G:\QuanLyNhaHang\GUI\bin\Debug\DevComponents.DotNetBar.Charts.dll
+G:\QuanLyNhaHang\GUI\bin\Debug\DevComponents.DotNetBar.Keyboard.dll
+G:\QuanLyNhaHang\GUI\bin\Debug\DevComponents.DotNetBar.Layout.dll
+G:\QuanLyNhaHang\GUI\bin\Debug\DevComponents.DotNetBar.SuperGrid.dll
+G:\QuanLyNhaHang\GUI\bin\Debug\DevComponents.DotNetBar2.dll
+G:\QuanLyNhaHang\GUI\bin\Debug\DevComponents.Instrumentation.dll
+G:\QuanLyNhaHang\GUI\bin\Debug\DTO.dll
+G:\QuanLyNhaHang\GUI\bin\Debug\EntityFramework.dll
+G:\QuanLyNhaHang\GUI\bin\Debug\EntityFramework.SqlServer.dll
+G:\QuanLyNhaHang\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+G:\QuanLyNhaHang\GUI\bin\Debug\BUS.pdb
+G:\QuanLyNhaHang\GUI\bin\Debug\DAL.pdb
+G:\QuanLyNhaHang\GUI\bin\Debug\DTO.pdb
+G:\QuanLyNhaHang\GUI\bin\Debug\DevComponents.DotNetBar.Keyboard.xml
+G:\QuanLyNhaHang\GUI\bin\Debug\DevComponents.DotNetBar.SuperGrid.xml
+G:\QuanLyNhaHang\GUI\bin\Debug\DevComponents.DotNetBar2.xml
+G:\QuanLyNhaHang\GUI\bin\Debug\DevComponents.Instrumentation.xml
+G:\QuanLyNhaHang\GUI\bin\Debug\EntityFramework.xml
+G:\QuanLyNhaHang\GUI\bin\Debug\EntityFramework.SqlServer.xml
+G:\QuanLyNhaHang\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+G:\QuanLyNhaHang\GUI\obj\Debug\Interop.VSTOEE100.dll
+G:\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.ResolveComReference.cache
+G:\QuanLyNhaHang\GUI\obj\Debug\Nhanvien.ChonMon.resources
+G:\QuanLyNhaHang\GUI\obj\Debug\Nhanvien.DatMon.resources
+G:\QuanLyNhaHang\GUI\obj\Debug\Nhanvien.ThongKe.resources
+G:\QuanLyNhaHang\GUI\obj\Debug\Nhanvien.TrangChu.resources
+G:\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.Ban.resources
+G:\QuanLyNhaHang\GUI\obj\Debug\GUI.Gul.Form1.resources
+G:\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.NhomMau.resources
+G:\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.QuanLy.resources
+G:\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.TaiKhoan.resources
+G:\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.ThongKe.resources
+G:\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.TrangChu.resources
+G:\QuanLyNhaHang\GUI\obj\Debug\GUI.Properties.Resources.resources
+G:\QuanLyNhaHang\GUI\obj\Debug\GUI.XtraReport1.resources
+G:\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+G:\QuanLyNhaHang\GUI\obj\Debug\GUI.exe.licenses
+G:\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+G:\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.CopyComplete
+G:\QuanLyNhaHang\GUI\obj\Debug\GUI.exe
+G:\QuanLyNhaHang\GUI\obj\Debug\GUI.pdb
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\Interop.VSTOEE100.dll
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.exe
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.pdb
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.ResolveComReference.cache
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\Nhanvien.ChonMon.resources
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\Nhanvien.DatMon.resources
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.Ban.resources
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.NhomMau.resources
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.QuanLy.resources
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.TaiKhoan.resources
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.ThongKe.resources
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.TrangChu.resources
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.exe.licenses
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\bin\Debug\GUI.exe.config
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\bin\Debug\GUI.exe
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\bin\Debug\GUI.pdb
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\bin\Debug\BUS.dll
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\bin\Debug\DAL.dll
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\bin\Debug\DTO.dll
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\bin\Debug\EntityFramework.dll
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\bin\Debug\BUS.pdb
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\bin\Debug\DAL.pdb
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\bin\Debug\DTO.pdb
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\bin\Debug\EntityFramework.xml
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\bin\Debug\Guna.UI2.dll
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.QuanLy.Formdangnhap.resources
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.QuanLy.BanHang.resources
+C:\Users\htuan\OneDrive\Máy tính\New folder\QuanLyNhaHang\GUI\obj\Debug\GUI.QuanLy.Formtrangchu.resources
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\GUI.exe.config
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\GUI.exe
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\GUI.pdb
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\BUS.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DAL.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DevComponents.DotNetBar.Charts.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DevComponents.DotNetBar.Keyboard.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DevComponents.DotNetBar.Layout.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DevComponents.DotNetBar.SuperGrid.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DevComponents.Instrumentation.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DTO.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\EntityFramework.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\BUS.pdb
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DAL.pdb
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DTO.pdb
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DevComponents.DotNetBar.Keyboard.xml
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DevComponents.DotNetBar.SuperGrid.xml
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DevComponents.Instrumentation.xml
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\EntityFramework.xml
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\Interop.VSTOEE100.dll
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.ResolveComReference.cache
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\Nhanvien.ChonMon.resources
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\Nhanvien.DatMon.resources
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.Ban.resources
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.QuanLy.BanHang.resources
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.QuanLy.Formdangnhap.resources
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.QuanLy.Formtrangchu.resources
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.NhomMau.resources
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.QuanLy.resources
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.TaiKhoan.resources
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.ThongKe.resources
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.TrangChu.resources
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.exe.licenses
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.exe
+C:\Users\GMT\Desktop\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.pdb
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\GUI.exe.config
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\GUI.exe
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\GUI.pdb
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\BUS.dll
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DAL.dll
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DTO.dll
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\EntityFramework.dll
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\Guna.UI2.dll
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\BUS.pdb
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DAL.pdb
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\DTO.pdb
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\EntityFramework.xml
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\Interop.VSTOEE100.dll
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.ResolveComReference.cache
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\Nhanvien.ChonMon.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\Nhanvien.DatMon.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.Ban.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.QuanLy.BanHang.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.QuanLy.Formdangnhap.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.QuanLy.Formtrangchu.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.NhomMau.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.QuanLy.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.TaiKhoan.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.ThongKe.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\QuanLyCafe.Gul.TrangChu.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.exe.licenses
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.exe
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\QuanLyNhaHang\GUI\obj\Debug\GUI.pdb
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\GUI.exe.config
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\GUI.exe
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\GUI.pdb
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\BUS.dll
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\DAL.dll
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\DTO.dll
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\EntityFramework.dll
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\Guna.UI2.dll
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\BUS.pdb
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\DAL.pdb
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\DTO.pdb
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\DevComponents.DotNetBar.Keyboard.xml
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\DevComponents.DotNetBar.SuperGrid.xml
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\DevComponents.Instrumentation.xml
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\EntityFramework.xml
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\Interop.VSTOEE100.dll
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\GUI.csproj.ResolveComReference.cache
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\Nhanvien.ChonMon.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\Nhanvien.DatMon.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\QuanLyCafe.Gul.Ban.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\GUI.QuanLy.BanHang.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\GUI.QuanLy.Formdangnhap.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\GUI.QuanLy.Formtrangchu.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\QuanLyCafe.Gul.NhomMau.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\QuanLyCafe.Gul.QuanLy.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\QuanLyCafe.Gul.TaiKhoan.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\QuanLyCafe.Gul.ThongKe.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\QuanLyCafe.Gul.TrangChu.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\GUI.exe.licenses
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\GUI.exe
+C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\GUI\obj\Debug\GUI.pdb

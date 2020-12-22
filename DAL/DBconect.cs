@@ -8,10 +8,10 @@ namespace DAL
 {
   public  class DBconect
     {
-        private string Sever = @"DESKTOP-KR3IR33";
+        private string Sever = @"DESKTOP-M08G8QT\SQLEXPRESS";
         private string Datase = "QuanLyNhaHang";
-        private string Use = "sa";
-        private string PASS = "12345";
+        private string Use = "PhamTrongTruong";
+        private string PASS = "0353573467";
         public SqlConnection sqlConnection()
         {
             string connString = @"Data Source=" + Sever + ";Initial Catalog="

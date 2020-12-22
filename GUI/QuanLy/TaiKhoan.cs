@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,7 +21,14 @@ namespace QuanLyCafe.Gul
             this.BackColor = trangChu.BackColor;
             this.Font = this.Font;
             trang = trangChu;
+            LoadDaTa();
 
+        }
+
+        private void LoadDaTa()
+        {
+            textBox1.Text = trang.nhanVien.MaNV1;
+            textBox2.Text = trang.nhanVien.MaKhau1;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -47,6 +55,23 @@ namespace QuanLyCafe.Gul
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             Dispose();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (textBox3.Text.Equals(textBox4.Text))
+            {
+                DALNhanvien nhanvien = new DALNhanvien();
+                trang.nhanVien.MaKhau1 = textBox3.Text;
+                trang.nhanVien.MaNV1 = textBox1.Text.Substring(6);
+                nhanvien.Update(trang.nhanVien);
+                trang.Load();
+                
+            }
+            else
+            {
+                MessageBox.Show("Mật Khẩu Nhập Vào Không Trùng Khớp ");
+            }
         }
     }
 }

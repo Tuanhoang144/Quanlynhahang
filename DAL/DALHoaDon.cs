@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using DTO;
 using System.Data;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace DAL
 {
@@ -55,7 +56,6 @@ namespace DAL
             return dataTable;
         }
 
-     
 
         public DataTable TongSoHd(DateTime time1, DateTime time2)
         {

@@ -561,7 +561,7 @@
             this.Text = "Trang Chủ";
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.TrangChu_FormClosed);
-            this.Load += new System.EventHandler(this.TrangChu_Load);
+            //this.Load += new System.EventHandler(this.TrangChu_Load);
             this.panelLeft.ResumeLayout(false);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.guna2CustomGradientPanel1.PerformLayout();

@@ -75,3 +75,14 @@ C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\BUS\obj\Debug\BUS.csproj.CoreCo
 C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\BUS\obj\Debug\BUS.csproj.CopyComplete
 C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\BUS\obj\Debug\BUS.dll
 C:\Users\htuan\OneDrive\Máy tính\Quanlynhahang\BUS\obj\Debug\BUS.pdb
+C:\Users\GMT\Desktop\Quanlynhahang\BUS\bin\Debug\BUS.dll
+C:\Users\GMT\Desktop\Quanlynhahang\BUS\bin\Debug\BUS.pdb
+C:\Users\GMT\Desktop\Quanlynhahang\BUS\bin\Debug\DAL.dll
+C:\Users\GMT\Desktop\Quanlynhahang\BUS\bin\Debug\DTO.dll
+C:\Users\GMT\Desktop\Quanlynhahang\BUS\bin\Debug\DAL.pdb
+C:\Users\GMT\Desktop\Quanlynhahang\BUS\bin\Debug\DTO.pdb
+C:\Users\GMT\Desktop\Quanlynhahang\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\GMT\Desktop\Quanlynhahang\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\GMT\Desktop\Quanlynhahang\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\GMT\Desktop\Quanlynhahang\BUS\obj\Debug\BUS.dll
+C:\Users\GMT\Desktop\Quanlynhahang\BUS\obj\Debug\BUS.pdb

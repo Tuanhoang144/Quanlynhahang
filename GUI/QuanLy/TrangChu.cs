@@ -66,9 +66,12 @@ namespace QuanLyCafe.Gul
             f.Show();
         }
 
-     
+        internal void Load()
+        {
+            Formtrangchu trangchu = new Formtrangchu(this);
 
-        
+            AddForm(trangchu);
+        }
 
         private void btndanhmuc_Click(object sender, EventArgs e)
         {

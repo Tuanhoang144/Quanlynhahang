@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DALChitietdathang.cs" />
+    <Compile Include="DALChiTietKK.cs" />
+    <Compile Include="DALDondathang.cs" />
+    <Compile Include="DALHangHoa.cs" />
+    <Compile Include="DALKiemKe.cs" />
+    <Compile Include="DALNhaCC.cs" />
     <Compile Include="DALNhanvien.cs" />
     <Compile Include="DALBan.cs" />
     <Compile Include="DALChiTietHD.cs" />

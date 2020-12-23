@@ -49,7 +49,7 @@ namespace QuanLyCafe.Gul
             Formtrangchu trangchu = new Formtrangchu(this);
 
             AddForm(trangchu);
-          
+           
 
         }
 
@@ -297,6 +297,18 @@ namespace QuanLyCafe.Gul
         private void đăngXuâToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Dispose();
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            
+            panel2.Controls.Clear();
+            khohang thongKe = new khohang(nhanVien);
+            thongKe.BackColor = this.BackColor;
+            thongKe.Font = this.Font;
+            // CapNhatPanel(thongKe.Size);
+            panel2.Controls.Add(thongKe);
+            thongKe.Show();
         }
     }
 }

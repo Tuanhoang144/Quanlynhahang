@@ -101,7 +101,7 @@
             this.txbtaikhoan.Animated = true;
             this.txbtaikhoan.BorderRadius = 8;
             this.txbtaikhoan.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txbtaikhoan.DefaultText = "5951071113";
+            this.txbtaikhoan.DefaultText = "5951071024";
             this.txbtaikhoan.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txbtaikhoan.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txbtaikhoan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -121,7 +121,6 @@
             this.txbtaikhoan.PlaceholderForeColor = System.Drawing.Color.DimGray;
             this.txbtaikhoan.PlaceholderText = "Username";
             this.txbtaikhoan.SelectedText = "";
-            this.txbtaikhoan.SelectionStart = 10;
             this.txbtaikhoan.ShadowDecoration.Parent = this.txbtaikhoan;
             this.txbtaikhoan.Size = new System.Drawing.Size(316, 46);
             this.txbtaikhoan.TabIndex = 43;
@@ -190,7 +189,7 @@
             this.txbmatkhau.Animated = true;
             this.txbmatkhau.BorderRadius = 8;
             this.txbmatkhau.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txbmatkhau.DefaultText = "1";
+            this.txbmatkhau.DefaultText = "123";
             this.txbmatkhau.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txbmatkhau.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txbmatkhau.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -210,7 +209,6 @@
             this.txbmatkhau.PlaceholderForeColor = System.Drawing.Color.DimGray;
             this.txbmatkhau.PlaceholderText = "Password";
             this.txbmatkhau.SelectedText = "";
-            this.txbmatkhau.SelectionStart = 1;
             this.txbmatkhau.ShadowDecoration.Parent = this.txbmatkhau;
             this.txbmatkhau.Size = new System.Drawing.Size(316, 46);
             this.txbmatkhau.TabIndex = 38;

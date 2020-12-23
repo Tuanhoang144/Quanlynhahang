@@ -43,3 +43,10 @@ C:\Users\GMT\Desktop\Quanlynhahang\DTO\obj\Debug\DTO.csproj.ResolveComReference.
 C:\Users\GMT\Desktop\Quanlynhahang\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 C:\Users\GMT\Desktop\Quanlynhahang\DTO\obj\Debug\DTO.dll
 C:\Users\GMT\Desktop\Quanlynhahang\DTO\obj\Debug\DTO.pdb
+C:\Users\hauph\Desktop\Quanlynhahang\DTO\bin\Debug\DTO.dll
+C:\Users\hauph\Desktop\Quanlynhahang\DTO\bin\Debug\DTO.pdb
+C:\Users\hauph\Desktop\Quanlynhahang\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\hauph\Desktop\Quanlynhahang\DTO\obj\Debug\DTO.csproj.ResolveComReference.cache
+C:\Users\hauph\Desktop\Quanlynhahang\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hauph\Desktop\Quanlynhahang\DTO\obj\Debug\DTO.dll
+C:\Users\hauph\Desktop\Quanlynhahang\DTO\obj\Debug\DTO.pdb

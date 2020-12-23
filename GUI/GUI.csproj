@@ -76,6 +76,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="phieukiemke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="phieukiemke.Designer.cs">
+      <DependentUpon>phieukiemke.cs</DependentUpon>
+    </Compile>
     <Compile Include="QuanLy\ChonMon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +106,18 @@
     <Compile Include="QuanLy\BanHang.Designer.cs">
       <DependentUpon>BanHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="QuanLy\ChitietDondathang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuanLy\ChitietDondathang.Designer.cs">
+      <DependentUpon>ChitietDondathang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLy\DonDatHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLy\DonDatHang.Designer.cs">
+      <DependentUpon>DonDatHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="QuanLy\Formdangnhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,11 +130,35 @@
     <Compile Include="QuanLy\Formtrangchu.Designer.cs">
       <DependentUpon>Formtrangchu.cs</DependentUpon>
     </Compile>
+    <Compile Include="QuanLy\hoadondathang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuanLy\hoadondathang.Designer.cs">
+      <DependentUpon>hoadondathang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLy\khohang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuanLy\khohang.Designer.cs">
+      <DependentUpon>khohang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLy\Nhacungcap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuanLy\Nhacungcap.Designer.cs">
+      <DependentUpon>Nhacungcap.cs</DependentUpon>
+    </Compile>
     <Compile Include="QuanLy\NhomMau.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="QuanLy\NhomMau.Designer.cs">
       <DependentUpon>NhomMau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLy\kiemke.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuanLy\kiemke.Designer.cs">
+      <DependentUpon>kiemke.cs</DependentUpon>
     </Compile>
     <Compile Include="QuanLy\QuanLy.cs">
       <SubType>Form</SubType>
@@ -129,6 +171,12 @@
     </Compile>
     <Compile Include="QuanLy\TaiKhoan.Designer.cs">
       <DependentUpon>TaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLy\themspmoi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuanLy\themspmoi.Designer.cs">
+      <DependentUpon>themspmoi.cs</DependentUpon>
     </Compile>
     <Compile Include="QuanLy\ThongKe.cs">
       <SubType>Form</SubType>
@@ -144,6 +192,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="phieukiemke.resx">
+      <DependentUpon>phieukiemke.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QuanLy\ChonMon.resx">
       <DependentUpon>ChonMon.cs</DependentUpon>
     </EmbeddedResource>
@@ -157,20 +208,41 @@
     <EmbeddedResource Include="QuanLy\BanHang.resx">
       <DependentUpon>BanHang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="QuanLy\ChitietDondathang.resx">
+      <DependentUpon>ChitietDondathang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLy\DonDatHang.resx">
+      <DependentUpon>DonDatHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QuanLy\Formdangnhap.resx">
       <DependentUpon>Formdangnhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLy\Formtrangchu.resx">
       <DependentUpon>Formtrangchu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="QuanLy\hoadondathang.resx">
+      <DependentUpon>hoadondathang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLy\khohang.resx">
+      <DependentUpon>khohang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLy\Nhacungcap.resx">
+      <DependentUpon>Nhacungcap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QuanLy\NhomMau.resx">
       <DependentUpon>NhomMau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLy\kiemke.resx">
+      <DependentUpon>kiemke.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLy\QuanLy.resx">
       <DependentUpon>QuanLy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLy\TaiKhoan.resx">
       <DependentUpon>TaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLy\themspmoi.resx">
+      <DependentUpon>themspmoi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLy\ThongKe.resx">
       <DependentUpon>ThongKe.cs</DependentUpon>

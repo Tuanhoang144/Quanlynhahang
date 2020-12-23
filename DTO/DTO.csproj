@@ -47,9 +47,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ban.cs" />
+    <Compile Include="ChiTietDatHang.cs" />
     <Compile Include="ChiTietHoaDon.cs" />
+    <Compile Include="ChiTietKK.cs" />
     <Compile Include="DBconect.cs" />
+    <Compile Include="DonDatHang.cs" />
     <Compile Include="Gmail.cs" />
+    <Compile Include="HangHoa.cs" />
+    <Compile Include="Kiemke.cs" />
+    <Compile Include="NhaCungCap.cs" />
     <Compile Include="NhanVien.cs" />
     <Compile Include="NhomMon.cs" />
     <Compile Include="HoaDon.cs" />

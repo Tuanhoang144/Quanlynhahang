@@ -195,6 +195,7 @@
             this.guna2Button2.TabIndex = 29;
             this.guna2Button2.Text = "Kho Hàng";
             this.guna2Button2.UseTransparentBackground = true;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // button1
             // 
@@ -448,20 +449,20 @@
             this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
             this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(34, 24);
+            this.toolStripDropDownButton1.Size = new System.Drawing.Size(34, 37);
             this.toolStripDropDownButton1.Text = "toolStripDropDownButton1";
             // 
             // đổiMậtKhẩuToolStripMenuItem
             // 
             this.đổiMậtKhẩuToolStripMenuItem.Name = "đổiMậtKhẩuToolStripMenuItem";
-            this.đổiMậtKhẩuToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.đổiMậtKhẩuToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
             this.đổiMậtKhẩuToolStripMenuItem.Text = "Đổi Mật Khẩu";
             this.đổiMậtKhẩuToolStripMenuItem.Click += new System.EventHandler(this.đổiMậtKhẩuToolStripMenuItem_Click);
             // 
             // đăngXuâToolStripMenuItem
             // 
             this.đăngXuâToolStripMenuItem.Name = "đăngXuâToolStripMenuItem";
-            this.đăngXuâToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.đăngXuâToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
             this.đăngXuâToolStripMenuItem.Text = "Đăng Xuất";
             this.đăngXuâToolStripMenuItem.Click += new System.EventHandler(this.đăngXuâToolStripMenuItem_Click);
             // 
@@ -561,7 +562,6 @@
             this.Text = "Trang Chủ";
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.TrangChu_FormClosed);
-            //this.Load += new System.EventHandler(this.TrangChu_Load);
             this.panelLeft.ResumeLayout(false);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.guna2CustomGradientPanel1.PerformLayout();

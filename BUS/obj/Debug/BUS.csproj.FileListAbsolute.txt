@@ -86,3 +86,14 @@ C:\Users\GMT\Desktop\Quanlynhahang\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.ca
 C:\Users\GMT\Desktop\Quanlynhahang\BUS\obj\Debug\BUS.csproj.CopyComplete
 C:\Users\GMT\Desktop\Quanlynhahang\BUS\obj\Debug\BUS.dll
 C:\Users\GMT\Desktop\Quanlynhahang\BUS\obj\Debug\BUS.pdb
+C:\Users\hauph\Desktop\Quanlynhahang\BUS\bin\Debug\BUS.dll
+C:\Users\hauph\Desktop\Quanlynhahang\BUS\bin\Debug\BUS.pdb
+C:\Users\hauph\Desktop\Quanlynhahang\BUS\bin\Debug\DAL.dll
+C:\Users\hauph\Desktop\Quanlynhahang\BUS\bin\Debug\DTO.dll
+C:\Users\hauph\Desktop\Quanlynhahang\BUS\bin\Debug\DAL.pdb
+C:\Users\hauph\Desktop\Quanlynhahang\BUS\bin\Debug\DTO.pdb
+C:\Users\hauph\Desktop\Quanlynhahang\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\hauph\Desktop\Quanlynhahang\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\hauph\Desktop\Quanlynhahang\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\hauph\Desktop\Quanlynhahang\BUS\obj\Debug\BUS.dll
+C:\Users\hauph\Desktop\Quanlynhahang\BUS\obj\Debug\BUS.pdb

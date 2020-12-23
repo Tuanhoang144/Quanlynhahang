@@ -69,3 +69,12 @@ C:\Users\GMT\Desktop\Quanlynhahang\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.ca
 C:\Users\GMT\Desktop\Quanlynhahang\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\GMT\Desktop\Quanlynhahang\DAL\obj\Debug\DAL.dll
 C:\Users\GMT\Desktop\Quanlynhahang\DAL\obj\Debug\DAL.pdb
+C:\Users\hauph\Desktop\Quanlynhahang\DAL\bin\Debug\DAL.dll
+C:\Users\hauph\Desktop\Quanlynhahang\DAL\bin\Debug\DAL.pdb
+C:\Users\hauph\Desktop\Quanlynhahang\DAL\bin\Debug\DTO.dll
+C:\Users\hauph\Desktop\Quanlynhahang\DAL\bin\Debug\DTO.pdb
+C:\Users\hauph\Desktop\Quanlynhahang\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\hauph\Desktop\Quanlynhahang\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\hauph\Desktop\Quanlynhahang\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\hauph\Desktop\Quanlynhahang\DAL\obj\Debug\DAL.dll
+C:\Users\hauph\Desktop\Quanlynhahang\DAL\obj\Debug\DAL.pdb
